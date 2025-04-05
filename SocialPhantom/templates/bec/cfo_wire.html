@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { color: #003366; font-size: 24px; }
+        .signature { margin-top: 30px; font-style: italic; }
+        .urgent { color: #cc0000; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <p>Hello {{target_name}},</p>
+    
+    <p class="urgent">URGENT WIRE TRANSFER REQUEST</p>
+    
+    <p>I need you to process an immediate wire transfer for {{amount}} to the following account:</p>
+    
+    <p>
+        Account Number: {{account}}<br>
+        Bank: International Commerce Bank<br>
+        SWIFT: ICBKUS33
+    </p>
+    
+    <p>This payment is time-sensitive for an acquisition we're finalizing. Please complete today and email me the confirmation.</p>
+    
+    <p>Let me know if you have any questions.</p>
+    
+    <div class="signature">
+        <p>Best regards,</p>
+        <p>John Smith<br>
+        Chief Financial Officer<br>
+        Acme Corporation</p>
+    </div>
+</body>
+</html>

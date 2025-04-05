@@ -1,0 +1,9 @@
+{
+    "smtp_server": "smtp.yourprovider.com",
+    "smtp_port": 465,
+    "username": "your_email@yourdomain.com",
+    "password": "your_smtp_password",
+    "sender_email": "no-reply@yourdomain.com",
+    "sender_name": "Your Security Team",
+    "subject": "Important: Security Notification"
+}
